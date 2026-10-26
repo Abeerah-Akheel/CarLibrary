@@ -35,7 +35,7 @@ namespace CarLibrary
             set { engine = value; }
         }
 
-        public Car()
+        public Cars()
         {
             Engine = new Engine();
             Make = string.Empty;
@@ -43,7 +43,7 @@ namespace CarLibrary
             Year = 1970;
         }
 
-        public Car(string make, string model, int year, Engine engine)
+        public Cars(string make, string model, int year, Engine engine)
         {
             this.Make = make;
             this.Model = model;
